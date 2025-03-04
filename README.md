@@ -13,6 +13,7 @@ brew install google-cloud-sdk
 ```
 
 ###  Create a GCP Project
+![image](https://drive.google.com/uc?export=view&id=1dqDnbe3Yg0MsVRlsMAdWzTkNkMGbOtJq)
 1. Go to Google Cloud Console [https://console.cloud.google.com/welcome](https://console.cloud.google.com/welcome)
 2. Create a project with the name: hackathon0-project
 3. See the Project ID (e.g., hackathon0-project)
@@ -86,9 +87,12 @@ Copy the content of key.json into GitHub Secrets in your repository. The GitHub 
 
 ## CICD specific Files
  1. Go to `.github/workflows/pipeline-main.yml`. Just change the parameters `GCP_PROJECT_ID`, `CLOUD_RUN_SERVICE` etc as per your need.
-
+![image](https://drive.google.com/uc?export=view&id=12RL5oPIvTNcE_cpCixaUjo-Hlp5YS9da)
 
 ## Commit The Codes
 ```
 sh git-push.sh main 'sample commit message'
 ```
+
+## Verify the Deployment
+![image](https://drive.google.com/uc?export=view&id=1QOn7-2jjjVJUICJkiz36WzTOn91gkU2L)
