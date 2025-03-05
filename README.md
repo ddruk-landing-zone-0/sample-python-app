@@ -105,4 +105,3 @@ sh git-push.sh main 'sample commit message'
 ```
 sh git-push.sh main 'sample commit message [skip-ci]'
 ```
- 
