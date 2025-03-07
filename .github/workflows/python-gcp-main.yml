@@ -74,7 +74,7 @@ jobs:
             --platform managed \
             --allow-unauthenticated \
             --service-account=${{ inputs.SERVICE_ACCOUNT }} \
-            --memory ${{ inputs.CLOUD_RUN_RAM }}
+            --memory ${{ inputs.CLOUD_RUN_RAM }} \
             --set-secrets ENV_VAR1=1,ENV_VAR2=2
 
           # Fetch and display the deployed service URL
